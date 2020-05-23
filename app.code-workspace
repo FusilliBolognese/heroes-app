@@ -3,5 +3,11 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"githubPullRequests.remotes": [
+			"https://github.com/FusilliBolognese/heroes-app.git",
+			"upstream"
+		]
+	}
 }
