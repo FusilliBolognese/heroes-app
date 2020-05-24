@@ -5,10 +5,10 @@
   <div><span>id: </span>{{ hero.id }}</div>
   <div>
     <label>name:
-      <input [(ngModel)]="hero.name" placeholder="name" />
+      <input bindon-ngModel="hero.name" placeholder="name" />
     </label>
   </div>
-  <div><button (click)="save()">Enregistrer</button></div>
-  <div><button (click)="goBack()">Revenir</button></div>
+  <div><button on-click="save()">Enregistrer</button></div>
+  <div><button on-click="goBack()">Revenir</button></div>
 
 </div>
